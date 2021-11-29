@@ -1,7 +1,8 @@
 console.log("script geladen")
 
-async function startLoading() {
-    const test = await getData()
-    console.log(test)
+const startLoading = async function () {
+    const data = await getData()
+    console.log(data)
 }
 
+startLoading()
